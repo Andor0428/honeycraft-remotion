@@ -25,7 +25,7 @@ export const Root: React.FC = () => {
       {platforms.map(([platform, dims]) => (
         <Composition
           key={platform}
-          id={`HoneycraftAd_${platform.replace(/[\s/]/g, "_")}`}
+          id={`HoneycraftAd-${platform.replace(/[\s/]/g, "-")}`}
           component={HoneycraftAd}
           durationInFrames={300} // 10s at 30fps — overridden per render
           fps={30}

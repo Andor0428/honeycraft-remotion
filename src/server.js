@@ -32,14 +32,14 @@ async function getBundle() {
 
 // ── Platform → composition ID ──────────────────────────────────────────────
 const COMPOSITION_MAP = {
-  TikTok:             "HoneycraftAd_TikTok",
-  Instagram:          "HoneycraftAd_Instagram",
-  "Instagram Reels":  "HoneycraftAd_Instagram_Reels",
-  "Instagram Stories":"HoneycraftAd_Instagram_Stories",
-  Facebook:           "HoneycraftAd_Facebook",
-  Pinterest:          "HoneycraftAd_Pinterest",
-  YouTube:            "HoneycraftAd_YouTube",
-  "Twitter/X":        "HoneycraftAd_Twitter_X",
+  TikTok:             "HoneycraftAd-TikTok",
+  Instagram:          "HoneycraftAd-Instagram",
+  "Instagram Reels":  "HoneycraftAd-Instagram-Reels",
+  "Instagram Stories":"HoneycraftAd-Instagram-Stories",
+  Facebook:           "HoneycraftAd-Facebook",
+  Pinterest:          "HoneycraftAd-Pinterest",
+  YouTube:            "HoneycraftAd-YouTube",
+  "Twitter/X":        "HoneycraftAd-Twitter-X",
 };
 
 // ── POST /render ───────────────────────────────────────────────────────────
